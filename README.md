@@ -2,8 +2,8 @@
 ## Modelagem de Sinais e Sistemas Discretos
 
 **Disciplina:** Processamento Digital de Sinais  
-**Curso:** Engenharia da Computação
 **Instituição:** Instituto Federal da Paraíba (IFPB)  
+**Curso:** Engenharia da Computação  
 
 ---
 

@@ -109,13 +109,12 @@ A Simulação 5 responde de forma integrada ao problema PBL:
 ---
 
 ## Considerações Finais
-
-Esta etapa estabeleceu os fundamentos matemáticos e práticos do PDS. Os conceitos de sequências elementares, operações com sinais, energia/potência e classificação de sistemas formam a base para as etapas seguintes:
-
-- **Parte 2:** Convolução e sistemas LTI aprofundarão a relação $y[n] = x[n] * h[n]$
-- **Parte 3:** A análise espectral (DTFT, DFT, FFT) expandirá a leitura do espectro introduzida na Simulação 5
-- **Parte 4:** O projeto formal de filtros FIR/IIR substituirá o filtro MA simples por soluções otimizadas
-- **Parte 5:** O projeto embarcado integrará todo o pipeline em hardware real
+ 
+Esta etapa consolidou os fundamentos matemáticos e práticos essenciais para o Processamento Digital de Sinais. Por meio das cinco simulações, foi possível observar na prática como sinais discretos são construídos a partir de sequências elementares, como operações básicas transformam esses sinais sem perda de informação, e como a classificação energética distingue comportamentos transientes de sinais de duração indefinida.
+ 
+A classificação de sistemas revelou-se especialmente relevante: a verificação numérica de linearidade, invariância, causalidade e estabilidade BIBO demonstrou que essas propriedades não são apenas formalismos matemáticos, mas condições concretas que determinam se um sistema pode ser implementado, analisado e operado de forma segura em aplicações reais.
+ 
+A aplicação ao sensor de vibração (Simulação 5) integrou todos os conceitos em um cenário de engenharia real, evidenciando que a escolha correta de $F_s$, a modelagem matemática do sinal e a seleção de um sistema com propriedades adequadas são etapas indissociáveis de qualquer projeto de processamento digital de sinais.
 
 ---
 
